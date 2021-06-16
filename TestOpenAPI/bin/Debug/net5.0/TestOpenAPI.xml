@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestOpenAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TestOpenAPI.Controllers.WeatherForecastController.Get(System.Int32,System.Int32,System.Int64)">
+             <summary>
+             Get Weather forecast's data
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Todo
+                 {
+                    "id": 1,
+                    "name": "Item1",
+                    "isComplete": true
+                 }
+            
+             </remarks>
+             <param name="item"></param>
+             <returns>Data of Weather Forecast</returns>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>    
+        </member>
+    </members>
+</doc>

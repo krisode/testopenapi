@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mrsim\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mrsim\\.nuget\\packages"
+    ]
+  }
+}
